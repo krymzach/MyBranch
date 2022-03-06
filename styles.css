@@ -1,0 +1,13 @@
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+    width: 30vw;
+    height: 30vw;
+    box-shadow: 4px 4px black;
+}
+
+.home_page {
+    background-color: gainsboro;
+}
