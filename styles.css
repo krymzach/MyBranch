@@ -1,13 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
+
 .center {
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 100vh;
+    width: 100vw;
     background-color: whitesmoke;
-    width: 30vw;
-    height: 30vw;
-    box-shadow: 4px 4px black;
 }
 
-.home_page {
-    background-color: gainsboro;
+.signin_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: white;
+    width: 50vw;
+    height: 50vh;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 2vw;
+}
+
+.signin_button {
+    width: 25vw;
+    height: 10vh;
+    outline: none;
+    border: none;
+    border-radius: 1vw;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.25);
+    background-color: dodgerblue;
+    color: white;
+    font-size: 3.5vh;
+    font-family: 'Nunito', sans-serif;
+}
+
+.signin_button:hover {
+    background-color: rgb(17, 121, 224);
+    cursor: pointer;
+}
+
+.signup_button {
+    width: 25vw;
+    height: 10vh;
+    outline: none;
+    border: none;
+    border-radius: 1vw;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.25);
+    background-color: dodgerblue;
+    color: white;
+    font-size: 3.5vh;
+    font-family: 'Nunito', sans-serif;
+}
+
+.signup_button:hover {
+    background-color: rgb(17, 121, 224);
+    cursor: pointer;
 }
