@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
 
+body {
+    margin: 0;
+}
+
 .center {
     display: flex;
     align-items: center;
@@ -63,5 +67,99 @@
 
 .signup_button:hover {
     background-color: rgb(17, 121, 224);
+    cursor: pointer;
+}
+
+.app_page {
+    height: 100vh;
+    width: 100vw;
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 0;
+}
+
+.node {
+    width: 5vw;
+    height: 5vw;
+    border: 0.35vw solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(204, 200, 200);
+}
+
+.origin {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.f {
+    border-radius: 50%;
+}
+
+.no_image {
+    color: rgb(65, 62, 62);
+    font-size: 3.5vh;
+    font-family: 'Nunito', sans-serif;
+}
+
+.node_container {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 8vw;
+    z-index: 10;
+}
+
+.node_name {
+    font-family: 'Nunnito', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+}
+
+.vertical_line {
+    width: 0.35vw;
+    height: 7.5vw;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.add_icon {
+    width: 2vw;
+    height: 2vw;
+    background-color: whitesmoke;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.add {
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    cursor: default;
+    color: whitesmoke;
+}
+
+.vertical_line:hover {
+    background-color: rgb(187, 187, 187);
+    cursor: pointer;
+}
+
+.vertical_line:hover .add_icon {
+    background-color: lime;
+    cursor: pointer;
+}
+
+.vertical_line:hover .add {
+    color: black;
     cursor: pointer;
 }
